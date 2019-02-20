@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+html {
+	min-height: 100vh;
+}
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #555;
+	min-width: 320px;
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+a{
+	color: #555;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+button::-moz-focus-inner,input:: -moz-focus-inner,
+input[type="submit"]:: -moz-focus-inner{
+	border: 0;
+	outline: 0;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+.hidden{
+	display:none;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+html,body{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#E1E1E1;
+
+}
+header {
+	padding: 20px 0 0;
+}
+h1 a {
+	display: block;
+	text-align: left;
+}
+h1 a img {
+	height: 70px;
+}
+header {
+	background: #222;
+	padding: 15px 0;
+}
+header h1 {
+	float: left;
+}
+header nav {
+	line-height: 70px;
+}
+header nav input.search {
+	padding: 10px 5px;
+	border: 1px solid #fff;
+	outline: none;
+	color: #222;
+	font-size: 15px;
+	margin: 0;
+	border-radius: 20px;
+}
+header nav input[type="submit"] {
+	color: #fff;	
+	padding: 10px 15px; 
+	border-radius: 20px;
+	display: inline-block;	
+	border:0; 
+	background: transparent;
+	border: 1px solid #fff;
+	cursor: pointer;
+	outline: none;
+}
+#spotlight {
+	padding: 30px 0;
+	text-align: center;
+}
+#spotlight h1 {
+	font-size:34px;
+	color: #222;
+	margin-bottom: 20px;
+}
+#spotlight p {
+	color: #777;
+	font-size: 17px;
+}
+#content .title {
+	margin-bottom: 20px;
+	font-size: 24px;
+
+}
+#content .list {
+	float: left;
+	width: 100%;
+	margin-bottom: -2%;
+}
+
+#content .list li {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+#content .list li:nth-child(3n) {
+	margin-right: 0;
+}
+#content .list li .card {
+	background: #fff;
+	box-shadow: 0px 0px 10px 0px rgba(39,49,65,0.1);
+	border-radius: 4px;
+	padding:15px 0;
+
+}
+#content .list li .card img {
+	display: block;
+	width: 100%;
+	border-radius: 4px 4px 0 0;
+}
+
+#content .list li .card h1 {
+	margin: 15px 0 10px;
+	color: #444;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.2px;
+}
+#content .list li .card .bottom {
+	margin-left: 15px;
+}
+#content .list li .card p {
+	font-weight: normal;
+	color: #444;
+}
+#content .list li .card p span.date {
+	font-weight: bold;
+	color: #FD6CA3;
+}
+#filter-form {
+	margin-bottom: 30px;
+}
+#filter-form input.form-control {
+	padding: 10px 5px;
+	outline: none;
+	border: 1px solid #222;
+	color: #222;
+	background: transparent;
+	width: 25%;
+	margin-right: 3%;
+}
+#filter-form input.submit {
+	padding: 10px 5px;
+	outline: none;
+	border: 1px solid #222;
+	color: #222;
+	background: transparent;
+	width: 10%;
+	border-radius: 30px;
+	float: right;
+	cursor: pointer;
+}

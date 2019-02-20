@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+		<title>Events | Home</title>
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<section class="wrapper">
+				<h1><a href=""><img src="{% static 'images/logo.png' %}" alt="Logo"></a></h1>
+				<nav class="right">
+					<div class="search">
+						<form action="">
+							<input name="query" class="search" placeholder="Search here.." type="text">
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</nav>
+				<br class="clear">
+			</section>
+		</header>
+
+		<main>
+			<section id="spotlight">
+				<section class="wrapper">
+					<h1>“Somewhere, something incredible is waiting to be known.”</h1>
+					<p>You know that there’s an amazing venue or sponsor out there for your event — and you’ve got the energy and contacts to make it happen. Eventually.</p>
+				</section>
+			</section>
+
+			<section id="content">
+				<section class="wrapper">
+					<ul class="list">
+						{% for event in events %}
+						<li>
+							<div class="card">
+								<div class="bottom">
+									<h1 class="title">{{event.title}}</h1>
+									<p>{{event.date}}</p>
+									<p>{{event.place}}</p>
+								</div>
+							</div>
+						</li>
+						{% endfor %}
+						
+					</ul>
+					<br class="clear">
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
